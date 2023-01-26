@@ -689,6 +689,24 @@ the Google homepage. Scripts can cause additional network requests to be
 performed, as well as modify the page or its layout, causing another round of
 page rendering and painting.
 
+Role of the Firewall
+-----------------------------------------
+
+A firewall is a security system that controls incoming and outgoing network traffic based on a set of rules and policies. In the context of web browsing, a firewall's role is to protect the server and its resources from unauthorized access and potential threats.
+
+When a user makes a request to a web server, the request must pass through the firewall before it reaches the server. The firewall examines the request and compares it to its rules and policies to determine if the request is allowed or blocked. If the request is allowed, the firewall forwards the request to the server; if it is blocked, the firewall drops the request and the user receives a message indicating that the request has been blocked.
+
+Firewalls can also be used to block certain types of traffic, such as incoming traffic on certain ports or traffic from specific IP addresses or networks. This can be useful for preventing attacks such as denial-of-service (DoS) or distributed denial-of-service (DDoS) attacks.
+
+Firewalls can also inspect and monitor the traffic passing through them, which allows them to detect and prevent certain types of threats such as malware or phishing attempts. Additionally, Firewall is responsible for keeping the sensitive information in a network secure by blocking unauthorized access to the network.
+
+Firewalls play a critical role in ensuring the security and integrity of web browsing by controlling access to the server and protecting against potential threats.
+
+
+
+
+Regenerate response
+
 .. _`Creative Commons Zero`: https://creativecommons.org/publicdomain/zero/1.0/
 .. _`"CSS lexical and syntax grammar"`: http://www.w3.org/TR/CSS2/grammar.html
 .. _`Punycode`: https://en.wikipedia.org/wiki/Punycode
